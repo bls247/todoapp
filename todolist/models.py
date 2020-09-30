@@ -7,4 +7,4 @@ class Todolist(models.Model):
     completed = models.BooleanField(default=False)
 
     def __str__(self):
-        return self.text
+        return self.text # used to give title or text outerside 
